@@ -1,0 +1,87 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.appisa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- LOCAL NOTIFICATION -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <!-- LOCAL NOTIFICATION -->
+
+    <application
+      android:name=".MainApplication"
+      android:label="@string/app_name"
+      android:icon="@mipmap/icon"
+      android:roundIcon="@mipmap/icon"
+      android:allowBackup="false"
+      android:theme="@style/AppTheme">
+
+       <!-- Add this for SplashActivity -->
+        <activity
+          android:name=".SplashActivity"
+          android:theme="@style/SplashTheme"
+          android:label="@string/app_name">
+          <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+        </activity>
+
+      <!-- Remove the intent-filter of the MainActivity and add a param android:exported="true" -->
+        <activity
+          android:name=".MainActivity"
+          android:label="@string/app_name"
+          android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+          android:windowSoftInputMode="adjustResize"
+          android:exported="true">
+          <!--<activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />-->
+        </activity>
+
+      <!-- FOR APP WIDGET -->
+      <receiver android:name=".AppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info" />
+      </receiver>
+      <!-- FOR APP WIDGET -->
+
+      <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+      <!-- Firebase Push Notification -->
+      <service android:name="io.invertase.firebase.messaging.RNFirebaseMessagingService">
+        <intent-filter>
+          <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+      </service>
+      <!-- Firebase Push Notification -->
+
+      <!-- LOCAL NOTIFICATION -->
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+              android:value="YOUR NOTIFICATION CHANNEL NAME"/>
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+                  android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION"/>
+      <!-- Change the resource name to your App's accent color - or any other color you want -->
+      <meta-data  android:name="com.dieam.reactnativepushnotification.notification_color"
+                  android:resource="@color/white"/> <!-- or @android:color/{name} to use a standard color -->
+
+      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+      <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver">
+          <intent-filter>
+              <action android:name="android.intent.action.BOOT_COMPLETED" />
+          </intent-filter>
+      </receiver>
+
+      <service
+          android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+          android:exported="false" >
+          <intent-filter>
+              <action android:name="com.google.firebase.MESSAGING_EVENT" />
+          </intent-filter>
+      </service>
+      <!-- LOCAL NOTIFICATION -->
+    </application>
+
+</manifest>

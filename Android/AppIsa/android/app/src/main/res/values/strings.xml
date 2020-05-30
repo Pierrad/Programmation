@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Joyeux Anniversaire !</string>
+    <string name="appwidget_text">Test</string>
+    <string name="add_widget">Add widget</string>
+</resources>
