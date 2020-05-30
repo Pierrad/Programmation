@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MumApp</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="no_connection">No internet connection! Cannot be translated!</string>
+    <!-- Deploy : ca-app-pub-3871891744391537/3169353622-->
+    <!-- Test : ca-app-pub-3940256099942544/6300978111-->
+    <string name="banner_ad_unit_id">ca-app-pub-3871891744391537/3169353622</string>
+</resources>
