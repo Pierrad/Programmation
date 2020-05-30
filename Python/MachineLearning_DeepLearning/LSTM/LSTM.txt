@@ -1,0 +1,8 @@
+Permet d'oublier et de mettre en évidence des valeurs
+Chaque cellule possède 3 Gate, un forget, un input et un output
+Permet de définir ce qui est oublié, ce qui est mis en évidence
+
+Pratique pour les problème avec des données possédant une séquence ou se basant sur du temps (time series)
+Cependant, demande bcp de ressources pour l'entrainement
+
+Explications avec exemples : https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm/

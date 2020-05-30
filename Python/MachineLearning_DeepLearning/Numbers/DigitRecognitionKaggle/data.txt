@@ -1,0 +1,1 @@
+To download data : kaggle competitions download -c digit-recognizer

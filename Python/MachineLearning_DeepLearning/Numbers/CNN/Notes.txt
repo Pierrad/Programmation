@@ -1,0 +1,27 @@
+dropout layer
+
+dense = fully connected layer
+
+
+pour l'instant tout les neurones inputs vont dans un seul neurones puis output 
+
+
+Il suffit de mettre tous les neurones inputs dans plusieurs neurones comme pour le seul mais avec plusieurs
+
+
+Pour chaque neurone final, il faut que chaque input lui soit relié avec des liaisons propres
+Ensuite on passe dans softmax et il redonne 10 valeurs, pour chacun des 10 neurones, une valeur lui sera attribué 
+Et il faut faire une fonction de cout et de backpropagatio
+
+
+En gros avant j'avais mes 784 neurones reliés par des liaisons qui ont un poids à un seul neurone
+Now je dois avoir 10 neurones de sorties (pour les 10 chiffres qu'il peut reconnaître) et chaque neurones d'entré 
+donc les 784 doivent être connecté par des liaisons aux 10 neurones
+Et à partir de ça, pour chaque neurone de sortie je calcule un coût (en gros l'erreur du programme par rapport a ce qu'il devait trouver)
+et je change mes poids de liaisons de chaque neurone (parmi les 10) en fonction du taux d'erreurs
+Donc au fur et a mesure qu'il se trompe
+Il adapte les liaisons et se rapproche de la bonne réponse
+Du coup chacun des neurones finaux à des liaisons propres (784) qu'il doit changer en fonction de son erreur
+
+
+
