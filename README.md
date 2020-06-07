@@ -19,6 +19,8 @@ Les projets :
   - WidgetIsa (Application android en Java qui permet simplement d'afficher un mot en Widget provenant d'un document partagé. Le mot peut donc changer et la mise à jour est faite toutes les 30 secondes.)
   - AttentionWickens (Application android, avec Ionic&Angular donc HTML, CSS, Typescript, permettant simplement de compter les taps sur 5 carrés différents)
   - AppIsa (Application React-Native proposant un widget dynamique (dont le code provient du projet WidgetIsa), un système de Notification Push et Locale avec Firebase Messaging et la possibilité de rajouter des éléments à la base de données Firestore pour rajouter ces éléments dans la base de données locale Realm qui seront affichés dans l'application)
+- JavaScript 
+  - Tetris Online (création d'une version jouable à deux du célèbre jeux Tetris via un serveur NodeJS et SocketIo) 
 
 CodinGame
 - Lvl 13 (surtout Python et JavaScript) 
