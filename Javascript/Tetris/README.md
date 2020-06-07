@@ -18,6 +18,23 @@ deux joueurs grâce à un serveur NodeJS et la bibiothèque Socket.io.</p>
 
 <p> Le code du fichier "dom-To-Json.js" provient du Gist suivant : https://gist.github.com/sstur/7379870 </p>
 
+<h3> Installation </h3>
+<ol align='center'>
+  <li> Installer Node </li>
+  <li> Cloner ou télécharger le projet </li>
+  <li> Via un terminal de commande, dans le dossier du projet, run "npm install" (normalement le dossier "node_modules" est déjà présent) </li>
+  <li> Run "node serveur.js" </li>
+  <li> Se connecter via un navigateur à "localhost:8080/" via deux onglets pour lancer le jeu </li>
+</ol>
+
+<h3> TODO </h3>
+
+<ul align='center'>
+  <li> Réparer le problème de la pièce qui continue de tomber d'encore 1 bloc après avoir pourtant touché une pièce. (Il survient lorsque l'on bouge la pièce juste avant qu'elle touche une autre pièce </li>
+  <li> Améliorer le Front design </li> 
+</ul>  
+
+
 ## Auteur
 
 👤 **Vasseur Pierre-Adrien**
