@@ -6,3 +6,4 @@ Les projets les plus intéressants sont dans les dossiers suivants :
 - AutoCompressPDF
 - Sudoku
 - Assistant
+- Bazar Bizarre (Implémentation du Jeu Bazar Bizarre Version Star Wars avec GUI Turtle)
