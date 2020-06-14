@@ -2,9 +2,15 @@
 ## Projets personnels
 
 ### Les plus gros projets sont :
-- Python -> <a href="https://github.com/Pierrad/Programmation/tree/master/Python/MachineLearning_DeepLearning/Stock_Prediction">StockPrediction</a> & <a href="https://github.com/Pierrad/Programmation/tree/master/Python/MachineLearning_DeepLearning/Numbers">ML_DL/Numbers</a> & <a href="https://github.com/Pierrad/Programmation/tree/master/Python/BazarBizarre"> Jeu Bazar Bizarre Version Star Wars</a> 
-- Android -> <a href="https://github.com/Pierrad/Programmation/tree/master/Android/AppIsa">AppIsa en React-Native</a>
-- Javascript -> <a href = "https://github.com/Pierrad/Programmation/tree/master/Javascript/Tetris"> Tetris Online</a> <br>
+- Python
+  - <a href="https://github.com/Pierrad/Programmation/tree/master/Python/MachineLearning_DeepLearning/Stock_Prediction">StockPrediction</a> 
+  - <a href="https://github.com/Pierrad/Programmation/tree/master/Python/MachineLearning_DeepLearning/Numbers">ML_DL/Numbers</a>
+  - <a href="https://github.com/Pierrad/Programmation/tree/master/Python/BazarBizarre"> Jeu Bazar Bizarre Version Star Wars</a> 
+- Android
+  - <a href="https://github.com/Pierrad/Programmation/tree/master/Android/AppIsa">AppIsa en React-Native</a>
+- Javascript
+  - <a href = "https://github.com/Pierrad/Programmation/tree/master/Javascript/Tetris"> Tetris Online</a>
+  - <a href="https://github.com/Pierrad/Programmation/tree/master/Javascript/FreeCodeCamp"> FreeCodeCamp Javascript Certification </a><br>
 ### Les projets :
 - <a href="https://github.com/Pierrad/Programmation/tree/master/Electron">Electron</a> (Une GUI pour le projet AutoCompressPDF en python)
 - <a href = "https://github.com/Pierrad/Programmation/tree/master/Python">Python </a>
@@ -22,6 +28,7 @@
   - <a href ="https://github.com/Pierrad/Programmation/tree/master/Android/AppIsa">AppIsa</a> (Application React-Native proposant un widget dynamique (dont le code provient du projet WidgetIsa), un système de Notification Push et Locale avec Firebase Messaging et la possibilité de rajouter des éléments à la base de données Firestore pour rajouter ces éléments dans la base de données locale Realm qui seront affichés dans l'application)
 - JavaScript 
   - <a href = "https://github.com/Pierrad/Programmation/tree/master/Javascript/Tetris"> Tetris Online</a> (création d'une version jouable à deux du célèbre jeux Tetris via un serveur NodeJS et SocketIo) 
+  - <a href="https://github.com/Pierrad/Programmation/tree/master/Javascript/FreeCodeCamp"> FreeCodeCamp Javascript Certification </a>
 
 CodinGame
 - Lvl 13 (surtout Python et JavaScript) 
