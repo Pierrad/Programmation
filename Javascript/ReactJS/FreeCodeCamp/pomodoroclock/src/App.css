@@ -1,0 +1,60 @@
+body{
+  background-color: rgb(30,85,92);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+p{
+  color:white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+#start_stop{
+  background-size:cover;
+  background-color:transparent;
+  border-color: transparent;
+  width: 34px;
+  height: 34px;
+}
+#reset{
+  background-image: url("https://image.flaticon.com/icons/svg/32/32303.svg");
+  background-size:cover;
+  background-color:transparent;
+  border-color: transparent;
+  width: 35px;
+  height: 35px;
+}
+
+#break-decrement{
+  background-image: url("https://icons-for-free.com/download-icon-down+arrow+download+icon-1320185738770602413_512.png");
+  background-size:cover;
+  background-color:transparent;
+  border-color: transparent;
+  width: 50px;
+  height: 50px;
+}
+#break-increment{
+  background-image: url("https://i.pinimg.com/originals/cc/99/3a/cc993a2f30c64a3a9ea1ae1a5a434704.png");
+  background-size:cover;
+  background-color:transparent;
+  border-color: transparent;
+  width: 60px;
+  height: 60px;
+}
+#session-increment{
+  background-image: url("https://i.pinimg.com/originals/cc/99/3a/cc993a2f30c64a3a9ea1ae1a5a434704.png");
+  background-size:cover;
+  background-color:transparent;
+  border-color: transparent;
+  width: 60px;
+  height: 60px;
+}
+#session-decrement{
+  background-image: url("https://icons-for-free.com/download-icon-down+arrow+download+icon-1320185738770602413_512.png");
+  background-size:cover;
+  background-color:transparent;
+  border-color: transparent;
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,88 @@
+body{
+    background-color:#C1C1C1;
+}
+#calculator{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -150px;
+    display:grid;
+    grid-template-areas: "d d d d"
+                         "c c div mult"
+                         "seven eight nine minus"
+                         "four five six plus"
+                         "one two three equal"
+                         "zero zero point equal";
+    grid-gap: 3px;
+}
+button{
+    padding: 10px;
+    color:white;
+    background-color: #526A7B;
+    border-color:#526A7B;
+    border-width:1px;
+}
+button:hover{
+    color:black !important;
+    border-color:white !important;
+    border-width:1px !important;
+}
+
+#clear{
+    color:white;
+    background-color: #D16666;
+    border-color: #D16666;
+    grid-area: c;
+}
+#divide{
+    grid-area: div;
+}
+#multiply{
+    grid-area: mult;
+}
+#add{
+    grid-area: plus;
+}
+#subtract{
+    grid-area: minus;
+}
+#zero{
+    grid-area: zero;
+}
+#one{
+    grid-area: one;
+}
+#two{
+    grid-area: two;
+}
+#three{
+    grid-area: three;
+}
+#four{
+    grid-area: four;
+}
+#five{
+    grid-area: five;
+}
+#six{
+    grid-area: six;
+}
+#seven{
+    grid-area: seven;
+}
+#eight{
+    grid-area: eight;
+}
+#nine{
+    grid-area: nine;
+}
+#decimal{
+    grid-area: point;
+}
+#equals{
+    grid-area:equal;
+}
+#display{
+    grid-area: d;
+}

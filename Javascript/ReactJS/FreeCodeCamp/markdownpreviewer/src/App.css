@@ -1,0 +1,24 @@
+body{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-color:#E7E6F7
+}
+.divContainer{
+  margin:auto;
+  margin-top:20px;
+}
+#editor{
+  width:400px;
+  height:400px;
+  background-color: #E3D0D8;
+}
+#preview{
+  width:400px;
+  height:auto;
+  background-color: #AEA3B0;
+}
+img{
+  height: 100px;
+  width: 150px;
+}
