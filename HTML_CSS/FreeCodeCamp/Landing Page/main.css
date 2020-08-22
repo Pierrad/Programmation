@@ -1,0 +1,38 @@
+#header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  #header-img{
+    width:150px;
+  }
+  #nav-bar{
+    position:fixed;
+    top:0px;
+    right:0px;
+  }
+  ul{
+    font-family:Helvetica;
+    list-style-type: none;
+  }
+  li{
+    padding:10px;
+    display:inline;
+  }
+
+  iframe{
+    width:1000px;
+    height:500px;
+  }
+
+  form{
+    position:fixed;
+    bottom:5px;
+  }
+
+
+  @media (max-width: 100px) {
+    #header-img{
+      width:50px;
+    }
+  }

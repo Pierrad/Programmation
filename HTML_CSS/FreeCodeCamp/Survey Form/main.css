@@ -1,0 +1,23 @@
+body{
+    background-color:#E6EFE9;
+  }
+  
+  #title{
+    display:flex;
+    justify-content:center;
+    color:#9B7EDE;
+  }
+  
+  p, form{
+    display:flex;
+    justify-content:center;
+    color:#50514F;
+  }
+  #survey-form{
+    flex-direction:column;
+    position:relative;
+    width:150px;
+    left:50%;
+    margin-left:-75px;
+    
+  }

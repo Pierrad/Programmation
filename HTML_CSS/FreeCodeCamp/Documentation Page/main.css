@@ -1,0 +1,28 @@
+body{
+    background-color:#F1DEDE;
+  }
+  #navbar{
+    position:fixed;
+    width:50px;
+    top:0px;
+    left:0px;
+  }
+  .nav-link{
+    padding:10px; 
+  }
+  nav > p {
+    display:inline;
+  }
+  
+  #main-doc{
+    position:relative ;
+    left:70px ;
+  }
+  
+  @media(min-width = 100px){
+    #navbar{
+      position:fixed;
+      top:0px;
+      left:0px;
+    }
+  }

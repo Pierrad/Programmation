@@ -1,0 +1,37 @@
+body{
+    --color-background:#363537;
+  --color-text:#EF2D56;
+  background-color:var(--color-background);
+}
+#title{
+  display:flex;
+  justify-content:center;
+  position:relative;
+  top:6px;
+  color:var(--color-text);
+}
+#image{
+  display:flex;
+  position:relative;
+  left:50%;
+  width:500px;
+  margin-left:-250px;
+  border-radius:10px;
+  box-shadow:5px 5px 5px #474649;
+}
+#img-caption{
+  color:var(--color-text);
+  position:relative;
+  left:58%;
+  font-family:Courier;
+}
+#tribute-info{
+  color:var(--color-text);
+  position:relative;
+  left:48.5%;
+  font-family:Courier;
+}
+
+a{
+  color:var(--color-text);
+}
