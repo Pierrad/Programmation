@@ -75,7 +75,7 @@ data = { "function": "TIME_SERIES_DAILY",
 		"symbol": "ORA.PA",
 		"outputsize": "full",
 		"datatype": "json",
-		"apikey": "20M98U0442RX494K" }
+		"apikey": "" }
 response = requests.get(API_URL, data)
 data = response.json()
 
